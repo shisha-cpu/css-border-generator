@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box{
+            height: 200px;
+            width: 500px;
+            /* border-radius: 10px 50px 100px 200px;верх левый - верх правый - низ правый - низ левый*/
+            
+            background-color: green;
+            margin: 0 auto;
+            margin-top: 200px;
+            
+        }
+    </style>
+</head>
+<body>
+    <input type="range" value="0.00" min="0" max="200" oninput="fn1()" id="r1">Верхний левый <input type="text" name="" id="a1">
+    <input type="range" value="0.00" min="0" max="200" oninput="fn1()" id="r2">Верхний правый <input type="text" name="" id="a2">
+    <input type="range" value="0.00" min="0" max="200" oninput="fn1()" id="r3">Нижний левый <input type="text" name="" id="a3">
+    <input type="range" value="0.00" min="0" max="200" oninput="fn1()" id="r4">Нижний правый <input type="text" name="" id="a4">
+    <div class="box"></div> 
+
+
+    <script src="app.js"></script>
+</body>
+</html>
